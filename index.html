@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=100%, initial-scale=1">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -9,145 +10,107 @@
 
   <body id="body">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    
-     
+
+
 <!-- beginning of navbar -->
 <nav id="navbar" class="navbar navbar-default navbar-fixed-top">
 <!--  <div class="container">  -->
-  <div class="navbar-header">        
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
-      <span class="sr-only">Toggle Navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>  
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+    <span class="sr-only">Toggle Navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
     <a class="navbar-brand" href="index.html">
-      <span class="projectClass" id="wait" aria-hidden="true">Project Portfolio</span> 
-    </a>
-  </div>
-  
-  <div class="collapse navbar-collapse" id="app-navbar-collapse">
-    <ul class="nav navbar-nav" id="navoo">
-                          &nbsp;
-    <li><a href="#projects">
-      <span id="color" aria-hidden="true">Projects</span> 
-    </a></li>
-    <li><a href="#contact">
-      <span id="color" aria-hidden="true">Contacts</span> 
-    </a></li>
-    <li><a href="https://github.com/addod19/Grace-Daniel/blob/master/index.html">
-      <span id="color" aria-hidden="true">Github</span> 
-    </a></li>
-    </ul>
-  
-  </div>
+    <span class="projectClass" id="wait" aria-hidden="true">Project Portfolio</span>
+  </a>
+</div>
+
+<div class="collapse navbar-collapse" id="app-navbar-collapse">
+  <ul class="nav navbar-nav" id="navoo">
+                &nbsp;
+  <li><a href="#projects">
+    <span id="color" aria-hidden="true">Projects</span>
+  </a></li>
+  <li><a href="#contact">
+    <span id="color" aria-hidden="true">Contacts</span>
+  </a></li>
+  <li><a href="https://github.com/addod19/Grace-Daniel/blob/master/index.html">
+    <span id="color" aria-hidden="true">Github</span>
+  </a></li>
+  </ul>
+
+</div>
              <!---   </div>  -->
 </nav>
          <!-- end of navbar -->
   <!-- start of master div -->
-<div class="container">     
-    <!-- start of welcome-section -->  
-<section style="width:100%; height:660px; background-color: gray;" id="welcome-section">    
-  <h1 class="text-center" id="cmm">Hi, we are Grace and Daniel.</h1>
-  <h6 class="text-center" id="cmm">we are web developers.</h6>
-</section> 
-    <!-- end of welcome-section -->
-    <!-- start of project section -->    
-<section id="projects">
-    <!-- start of first row in section projects -->
-      		  
-<div class="row">
-  <div class="text-center"id="descP" >These are some of our projects</div>
-    <div  class="container">
-      <div class="col-sm-4">
-        <div  id="wrapper">
-          <img src="image/image1.jpg" height="250px" width="100%"/>
-          <h1 class="text-center"><a href="#"  class="project-tile">Project 1</a></h1>
-        </div>
-      </div>
-      <div class="col-sm-4">
-          <div  id="wrapper">
-            <img src="image/image1.jpg" height="250px" width="100%"/>
-            <h1 class="text-center"><a href="#"  class="project-tile">Project 2</a></h1>
-          </div>
-      </div>  
-      <div class="col-sm-4">
-          <div  id="wrapper">
-            <img src="image/image1.jpg" height="250px" width="100%"/>
-            <h1 class="text-center"><a href="#"  class="project-tile">Project 3</a></h1>
-          </div>
-      </div>
-    </div>
-  </div>
-  <!-- end of first row in projects section-->
-  <!-- start of second row in  projects section-->
-<div class="row" style="margin-top:50px;">
+<div class="container">
+    <!-- start of welcome-section -->
+<div class="jumbotron jumbotron-fluid" id="welcome-section">
   <div class="container">
-    <div class="col-sm-4" >
-      <div  id="wrapper">
-        <img src="image/image1.jpg" height="250px" width="100%"/>
-        <h1 class="text-center"><a href="" class="project-tile">Project 4</a></h1>
-      </div>
-    </div>
-      
-  <div class="col-sm-4" >
-    <div  id="wrapper">
-      <img src="image/image1.jpg" height="250px" width="100%"/>
-        <h1 class="text-center"><a href="#" class="project-tile">Project 5</a></h1>
-    </div>
+    <h1 class="text-center" id="pos">WE love creating web applications....</h1>
+    <p class="lead text-center" id="pos">This is where we show </p>
   </div>
-  <div class="col-sm-4" >
-    <div  id="wrapper">
-      <img src="image/image1.jpg" height="250px" width="100%"/>
-      <h1 class="text-center"><a href="#" class="project-tile">Project 6</a></h1>
-    </div>
-  </div>
-  </div>  
 </div>
-    <!-- end of second row in section projects -->		  
-<div class="row" id="more">
-  <div class="text-center">
-    <a href="https://github.com/addod19" id="profile-link" target="_blank">more</a>
+
+
+    <!-- end of welcome-section -->
+    <!-- start of project section -->
+<section id="projects">
+<div class="container">
+  <div class="text-center" id="pro">This is our projects</div>
+<div class="card-deck project-tile row">
+<div class="card col-md-4">
+  <img src="image/image1.jpg" class="card-img-top" alt="Our projectImage">
+  <div class="card-body">
+    <h5 class="card-title">This is our Project</h5>
+    <p class="card-text">We created it because it solved a problem!! <br>
+    <a href="#">Read more.....</a>
+    </p>
   </div>
-</div> 
-</section>
+  <div class="card-footer">
+    <small class="text-muted">February 2019</small>
+  </div>
+</div>
+<div class="card project-tile col-md-4">
+  <img src="image/image1.jpg" class="card-img-top" alt="Our projectImage">
+  <div class="card-body">
+    <h5 class="card-title">This is our Project</h5>
+    <p class="card-text">We created it because it solved a problem!!</p>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">February 2017</small>
+  </div>
+</div>
+<div class="card project-tile col-md-4">
+  <img src="image/image1.jpg" class="card-img-top" alt="Our projectImage">
+  <div class="card-body">
+    <h5 class="card-title">This our project</h5>
+    <p class="card-text">We created it because it solved a problem!!</p>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">February 2010</small>
+  </div><br>
+</div><hr>
+<div class="text-center">
+  <a href="https://github.com/addod19" id="profile-link" target="_blank">more projects</a>
+</div>
+</div>
+</div>
+
+</section><hr>
     <!-- end of project section  -->
-                
 
-<section id="work">
-  <div class="row">
-    <div class="text-center" id="desc">
-      <h1>lets work together......</h1>
-      <small>how do you take coffee?</small>
-    </div>
-  </div>
-  <div class="row text-center" id="rounded">
-    <div class="col-md-2" id="socialWrap">
-      <a href="" id="aStyle">facebook</a>
-    </div>
-    <div class="col-md-2" id="socialWrap">
-      <a href="" id="aStyle">facebook</a>
-    </div>
-    <div class="col-md-2" id="socialWrap">
-      <a href="" id="aStyle">facebook</a>
-    </div>
-    <div class="col-md-2" id="socialWrap">
-      <a href="" id="aStyle">facebook</a>
-    </div>
-    <div class="col-md-2" id="socialWrap">
-      <a href="" id="aStyle">facebook</a>
-    </div>
-  </div>
-   
-</section>
-<section id="contacts">
-  <footer id="contact">
-    <h3 class="text-center" id="fid">This is our project...It was created by us</h3>
-    <h4 class="text-center" id="fid">&copy created by Grace and Daniel</h4>   
-  </footer>
-</section>
 
-</div>     
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <p class="text-muted text-center" id="foot">&copyCreated by Grace & Daniel</p>
+  </div>
+</footer>
+
+</div>
    <!-- end of master div -->
     <!--
 
@@ -163,5 +126,8 @@
     -->
     <script  src="js/index.js"></script>
     <script  src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
